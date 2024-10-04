@@ -1,0 +1,55 @@
+.Directory {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.item1 {
+    background: url("../../assets/shopMens.jpg");
+    height: 100%;
+    width: 50%;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.item2 {
+    background: url(../../assets/shopWomens.jpg);
+    height: 100%;
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+}
+
+
+.item1>a {
+    padding: 1rem;
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+    margin: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+
+.item2>a {
+    padding: 1rem;
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+    margin: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
